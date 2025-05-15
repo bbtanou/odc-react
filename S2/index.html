@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="home">
+        <img src="images/road.jpg" alt="Page acceuil" class="page-acceuil" />
+        <div class="quick-access">
+            <button class="btn-reserver-voyage">Reserver un voyage</button>
+            <button type="button" class="btn-reserver-taxi">Reserver un taxi</button>
+        </div>
+    </div>
+    <div class="form-container">
+        <form>
+            <div class="form-group">
+                <label>Nom</label>
+                <input type="text" />
+            </div>
+
+            <div class="form-group">
+                <label>Prenom</label>
+                <input type="text" />
+            </div>
+
+            <div class="form-group">
+                <label>Age</label>
+                <input type="number" />
+            </div>
+
+            <div class="form-group">
+                <label>Pays</label>
+                <select>
+                    <option>Guinea</option>
+                    <option>Mali</option>
+                    <option>Cote Ivoir</option>
+                    <option>Senegal</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Genre</label>
+                <div class="btn-radio">
+                    <span>
+                        <label>Masculin</label>
+                        <input type="radio" name="genre" value="Masculin">
+                    </span>
+                    <span>
+                        <label>Feminin</label>
+                        <input type="radio" name="genre" value="Feminin">
+                    </span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Adresse</label>
+                <textarea rows="2"></textarea>
+            </div>
+            
+            <div style="display: inline-flex;gap: 10px;">
+                <label>J'accepte les conditions d'utilisations</label>
+                <input type="checkbox" />
+            </div>
+            
+            <button class="btn-submit">Enregistrer</button>
+        </form>
+    </div>
+</body>
+
+</html>

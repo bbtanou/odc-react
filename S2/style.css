@@ -1,0 +1,91 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.home{
+    width: 100%;
+    height: 100%;
+}
+
+.quick-access{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.home img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn-reserver-voyage, .btn-reserver-taxi, .btn-submit{
+    width: 200px;
+    height: 40px;
+    border: solid 1px #00000050;
+    border-radius: 5px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+
+    cursor: pointer;
+}
+
+
+.btn-reserver-taxi{
+    background-color: orange;
+}
+
+.btn-reserver-voyage{
+    background-color: #0071bd;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label{
+    font-size: 13px;
+}
+
+.form-group input, .form-group select, .form-group textarea{
+    min-width: 100px;
+    max-width: 100%;
+
+    min-height: 30px;
+    border: solid 1px #00000020;
+
+    background-color: #00000010;
+    border-radius: 5px;
+
+    margin: 5px;
+}
+
+.btn-submit{
+    height: 30px;
+    color: #000000;
+}
+
+
