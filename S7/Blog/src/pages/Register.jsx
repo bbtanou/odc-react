@@ -26,7 +26,7 @@ function Register(){
             name: '', email: '', password: ''
         })
 
-        navigate('/');
+        navigate('/connexion');
     }
     
     return (
